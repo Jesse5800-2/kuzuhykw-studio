@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<html>
-<title>智将の杰西的个人主页</title>
-<script>
-let  visitCount  =  0;
-function  increaseVisitCount()  {
-   visitCount++;
-   console.log("访问次数："  +  visitCount);
-}
-document.addEventListener("DOMContentLoaded",  increaseVisitCount);
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> <!-- 修改路径为相对路径 -->
+    <title>智将の杰西的个人主页</title>
 </head>
+
 <body>
-<h3>
-Hayakawa Jesse's Personal Page
-</h3>
-<img src="statics/avatar.png" width="73px" height="73px" >
-<h3>
-<a  href="https://b23.tv/4vkhTIt">我的B站</a>
-<a  href="https://github.com/Jesse5800-2">我的猫鱿鱼</a>
-<a  href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=KcDAMWfM9-ftCtOT14Z_OOtapwu3NCrN&authKey=dhapergqUdzwGC2Cz4rT1Vey1v8XFgiMCWQQDFNTzdk7ZrGEo13EPlHpfPI2mvAS&noverify=0&group_code=781566604">我们的Minecraft服务器！</a>
-<a  href="https://jesse5800-2.github.io/sping-aris/">戳我可以摸爱丽丝哦！</a>
-<a  href="https://jesse5800-2.github.io/bad-time-emu">游玩Sans战斗(By浩扬正气)</a>
-</h3>
-<h4>感谢你访问我的网站！
-<p>作为一名电脑爱好者，二刺螈，同时也是一名高中生，我在各方面均有涉猎，但没有一方面是砖业的（苦笑）
-但是，我也会继续努力，努力成长为一个合格的程序员
-请大家期待吧！
-我目前的目标，是成为一个独立游戏开发者，正在着手开发野（比大雄的）生（化危机）同人作品《FunkinHazard》，基于RGSS3（说白了就是RPG Maker VX Ace）
-</p></h4>
-<p>
-<h5>
-同时本人还是一个BA厨子，欢迎加入我们的小组哦！
-我们的小组ID：（国服）40601
-</p>
+<script src="js/jquery.js"></script>
+<script src="js/layer.min.js"></script>
+<link rel="stylesheet" href="https://lib.baomitu.com/layer/3.1.1/theme/default/layer.css?v=3.1.1" id="layuicss-layer">
+<div class="content">
+    <div>
+        <h3>
+            Hayakawa Jesse's Personal Page
+        </h3>
+        <img src="statics/avatar.png" width="73" height="73">
+        <nav>
+            <h3>
+                <a href="https://b23.tv/4vkhTIt">我的B站</a>
+                <a href="https://github.com/Jesse5800-2">我的猫鱿鱼</a>
+                <a href="https://www.pixiv.net/users/108076015">暂时没有作品的pixiv账号</a><br>
+                <a href="https://jesse5800-2.github.io/sping-aris/">戳我可以摸爱丽丝哦！</a>
+                <a href="https://jesse5800-2.github.io/bad-time-emu">游玩Sans战斗(By浩扬正气)</a>
+            </h3>
+        </nav>
+    </div>
+    <div>
+        <h4><p>感谢你访问我的网站！</p></h4>
+    </div>
+    <div>
+        <h5><p id="content">加载中...</p></h5>
+        <script src="js/loadContent.js"></script>
+    </div>
+</div>
+<footer>
+    <p>
+        同时本人还是一个BA厨子，欢迎加入我们的小组哦！<br>我们的小组ID：（国服）40601
+    </p>
+    <p>
+        页面编写 by 早川智将 At 25/01/30
+    </p>
+</footer>
+</body>
+</html>
