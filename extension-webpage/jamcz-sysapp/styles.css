@@ -1,0 +1,46 @@
+.logoandcaption{
+			    text-align: center;
+			    margin-top: 50px;
+			}
+		
+			
+	body{
+	background:#EEEEEE url("bg.png") ;
+	background-attachment: fixed;
+	background-repeat:repeat;			
+	padding:5%;
+	margin: 2% auto;
+	max-width:650px;
+	}
+	.a{
+	    border: 2px solid white; 
+        border-radius:8px;
+        background-color: #ffffff;
+        box-shadow:0px 0px 7px 2px #cccccc;
+
+        
+	}
+	
+	.b{
+	    
+	    border: 2px solid white;
+        border-radius:8px;
+        background-color: #ffffff;
+        box-shadow:0px 0px 7px 2px #cccccc;
+	} 
+			
+	.downBtn{
+	    text-decoration:none;
+	    color:white;
+	    cursor:pointer;
+	    background:#007BFF;
+	    padding:8px 5% 10px 5%;	
+	    margin:20px;
+	    border-radius:4px;
+        	}
+        	
+	.downBtn:hover{
+	    background:#0069D9;
+	}
+			
+			
